@@ -158,10 +158,10 @@ class PreferencesWindowController: NSWindowController
     @IBAction func togglePasswordVisible(_ sender: Any) {
         if passwordTabView.selectedTabViewItem?.identifier as! String == "secure" {
             passwordTabView.selectTabViewItem(withIdentifier: "insecure")
-            togglePasswordVisibleButton.image = NSImage(named: NSImage.Name(rawValue: "icons8-Eye Filled-50"))
+            togglePasswordVisibleButton.image = NSImage(named: "icons8-Eye Filled-50")
         } else {
             passwordTabView.selectTabViewItem(withIdentifier: "secure")
-            togglePasswordVisibleButton.image = NSImage(named: NSImage.Name(rawValue: "icons8-Blind Filled-50"))
+            togglePasswordVisibleButton.image = NSImage(named: "icons8-Blind Filled-50")
         }
     }
     
@@ -216,24 +216,24 @@ class PreferencesWindowController: NSWindowController
         if index >= 0 && index < profileMgr.profiles.count {
             editingProfile = profileMgr.profiles[index]
             
-            hostTextField.bind(NSBindingName(rawValue: "value"), to: editingProfile, withKeyPath: "serverHost"
+            hostTextField.bind(NSBindingName(rawValue: "value"), to: editingProfile!, withKeyPath: "serverHost"
                 , options: [NSBindingOption.continuouslyUpdatesValue: true])
-            portTextField.bind(NSBindingName(rawValue: "value"), to: editingProfile, withKeyPath: "serverPort"
+            portTextField.bind(NSBindingName(rawValue: "value"), to: editingProfile!, withKeyPath: "serverPort"
                 , options: [NSBindingOption.continuouslyUpdatesValue: true])
             
-            methodTextField.bind(NSBindingName(rawValue: "value"), to: editingProfile, withKeyPath: "method"
+            methodTextField.bind(NSBindingName(rawValue: "value"), to: editingProfile!, withKeyPath: "method"
                 , options: [NSBindingOption.continuouslyUpdatesValue: true])
-            passwordTextField.bind(NSBindingName(rawValue: "value"), to: editingProfile, withKeyPath: "password"
+            passwordTextField.bind(NSBindingName(rawValue: "value"), to: editingProfile!, withKeyPath: "password"
                 , options: [NSBindingOption.continuouslyUpdatesValue: true])
-            passwordSecureTextField.bind(NSBindingName(rawValue: "value"), to: editingProfile, withKeyPath: "password"
+            passwordSecureTextField.bind(NSBindingName(rawValue: "value"), to: editingProfile!, withKeyPath: "password"
                 , options: [NSBindingOption.continuouslyUpdatesValue: true])
 
-            pluginTextField.bind(NSBindingName(rawValue: "value"), to: editingProfile, withKeyPath: "plugin"
+            pluginTextField.bind(NSBindingName(rawValue: "value"), to: editingProfile!, withKeyPath: "plugin"
                 , options: [NSBindingOption.continuouslyUpdatesValue: true])
-            pluginOptionsTextField.bind(NSBindingName(rawValue: "value"), to: editingProfile, withKeyPath: "pluginOptions"
+            pluginOptionsTextField.bind(NSBindingName(rawValue: "value"), to: editingProfile!, withKeyPath: "pluginOptions"
                 , options: [NSBindingOption.continuouslyUpdatesValue: true])
             
-            remarkTextField.bind(NSBindingName(rawValue: "value"), to: editingProfile, withKeyPath: "remark"
+            remarkTextField.bind(NSBindingName(rawValue: "value"), to: editingProfile!, withKeyPath: "remark"
                 , options: [NSBindingOption.continuouslyUpdatesValue: true])
         } else {
             editingProfile = nil
@@ -277,7 +277,7 @@ class PreferencesWindowController: NSWindowController
             return title
         } else if tableColumn?.identifier == NSUserInterfaceItemIdentifier("status") {
             if isActive {
-                return NSImage(named: NSImage.Name(rawValue: "NSMenuOnStateTemplate"))
+                return NSImage(named: "NSMenuOnStateTemplate")
             } else {
                 return nil
             }
@@ -390,7 +390,7 @@ class PreferencesWindowController: NSWindowController
         shakePath.closeSubpath()
         shakeAnimation.path = shakePath
         shakeAnimation.duration = CFTimeInterval(durationOfShake)
-        window?.animations = [NSAnimatablePropertyKey(rawValue: "frameOrigin"):shakeAnimation]
+        window?.animations = ["frameOrigin":shakeAnimation]
         window?.animator().setFrameOrigin(window!.frame.origin)
     }
 }

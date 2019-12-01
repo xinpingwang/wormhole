@@ -45,7 +45,7 @@ open class RxTextFieldDelegateProxy
         _forwardToDelegate?.controlTextDidChange?(notification)
     }
 #else
-    open override func controlTextDidChange(_ notification: Notification) {
+    open func controlTextDidChange(_ notification: Notification) {
         let textField: NSTextField = castOrFatalError(notification.object)
         let nextValue = textField.stringValue
         self.textSubject.on(.next(nextValue))
