@@ -17,13 +17,13 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
-    NSLog(@"ShadowsocksX-NG LaunchHelper");
+    NSLog(@"WormHole LaunchHelper");
     
     NSWorkspace* ws = [NSWorkspace sharedWorkspace];
     BOOL bLaunched = NO;
-    bLaunched = [ws launchApplication: @"/Applications/ShadowsocksX-NG.app"];
+    bLaunched = [ws launchApplication: @"/Applications/WormHole.app"];
     if (!bLaunched) {
-        bLaunched = [ws launchApplication: @"ShadowsocksX-NG.app"];
+        bLaunched = [ws launchApplication: @"WormHole.app"];
     }
     if (!bLaunched) {
         NSArray *pathComponents = [[[NSBundle mainBundle] bundlePath] pathComponents];
