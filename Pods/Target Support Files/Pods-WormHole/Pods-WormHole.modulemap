@@ -1,0 +1,6 @@
+framework module Pods_WormHole {
+  umbrella header "Pods-WormHole-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -10,7 +10,7 @@
 
 #import <Foundation/Foundation.h>
 #import <SystemConfiguration/SystemConfiguration.h>
-#import "../ShadowsocksX-NG/proxy_conf_helper_version.h"
+#import "../WormHole/proxy_conf_helper_version.h"
 
 // A library for parsing command line.
 // https://github.com/stephencelis/BRLOptionParser
@@ -189,7 +189,7 @@ int main(int argc, const char * argv[])
                                               , (__bridge CFDictionaryRef)proxies);
                 } else if ([mode isEqualToString:@"off"]) {
                     if (pacURL != nil && portString != nil && socks5ListenAddress != nil) {
-                        // 取原来的配置，判断是否为shadowsocksX-NG设置的
+                        // 取原来的配置，判断是否为WormHole设置的
                         NSDictionary* oldProxies
                             = (__bridge NSDictionary*)SCPreferencesPathGetValue(prefRef
                                                                                 , (__bridge CFStringRef)prefPath);
