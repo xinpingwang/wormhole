@@ -7,9 +7,9 @@
 //
 
 import XCTest
-@testable import ShadowsocksX_NG
+@testable import WormHole
 
-class ShadowsocksX_NGTests: XCTestCase {
+class WormHoleTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import ShadowsocksX_NG
+@testable import WormHole
 
 class ServerProfileTests: XCTestCase {
 
