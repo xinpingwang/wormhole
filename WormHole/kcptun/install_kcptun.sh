@@ -10,12 +10,12 @@
 # We use an adatper to handle it.
 # https://github.com/xtaci/kcptun/releases
 
-VERSION="v20190905_1"
+VERSION="v20191127"
 
 cd "$(dirname "${BASH_SOURCE[0]}")"
 
 mkdir -p "$HOME/Library/Application Support/WormHole/kcptun_$VERSION"
-cp -f client "$HOME/Library/Application Support/WormHole/kcptun_$VERSION/"
+cp -f kcptun "$HOME/Library/Application Support/WormHole/kcptun_$VERSION/"
 
 # Delete old kcptun symbol link
 rm -f "$HOME/Library/Application Support/WormHole/plugins/kcptun"
