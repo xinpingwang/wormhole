@@ -154,6 +154,7 @@
 		1EC1E6A750EFAD1810EC8BD3 /* Pods-WormHole.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WormHole.release.xcconfig"; path = "Target Support Files/Pods-WormHole/Pods-WormHole.release.xcconfig"; sourceTree = "<group>"; };
 		3AD13149231DA8CBCC973630 /* Pods-WormHoleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WormHoleTests.release.xcconfig"; path = "Target Support Files/Pods-WormHoleTests/Pods-WormHoleTests.release.xcconfig"; sourceTree = "<group>"; };
 		66A4059F23A241110043E47A /* kcptun */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = kcptun; sourceTree = "<group>"; };
+		66D4CB4F23E27C34003AB5D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		9B07EFA61D048BBB0052D9DF /* ss-local */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "ss-local"; sourceTree = "<group>"; };
 		9B0BFFE51D0460A70040E62B /* WormHole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WormHole.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0BFFE81D0460A70040E62B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -873,6 +874,7 @@
 			children = (
 				9B0BFFED1D0460A70040E62B /* Base */,
 				9BAFE2EB1E83F91D00F71CCE /* zh-Hans */,
+				66D4CB4F23E27C34003AB5D6 /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";

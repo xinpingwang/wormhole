@@ -1,69 +1,69 @@
 
 /* Class = "NSMenuItem"; title = "Preferences..."; ObjectID = "4CS-qD-zW5"; */
-"4CS-qD-zW5.title" = "偏好设置...";
+"4CS-qD-zW5.title" = "Preferences...";
 
-/* Class = "NSMenuItem"; title = "手动模式"; ObjectID = "8PR-gs-c5N"; */
-"8PR-gs-c5N.title" = "手动模式";
+/* Class = "NSMenuItem"; title = "Manual Mode"; ObjectID = "8PR-gs-c5N"; */
+"8PR-gs-c5N.title" = "Manual Mode";
 
 /* Class = "NSMenu"; title = "Servers"; ObjectID = "9Y1-db-3HK"; */
-"9Y1-db-3HK.title" = "服务器";
+"9Y1-db-3HK.title" = "Servers";
 
 /* Class = "NSMenuItem"; title = "Turn WormHole On"; ObjectID = "GSu-Tf-StS"; */
-"GSu-Tf-StS.title" = "打开 WormHole";
+"GSu-Tf-StS.title" = "Turn WormHole On";
 
 /* Class = "NSMenu"; title = "WormHole"; ObjectID = "Hob-KD-bx9"; */
 "Hob-KD-bx9.title" = "WormHole";
 
 /* Class = "NSMenuItem"; title = "Show Logs..."; ObjectID = "Jfy-sf-Fhl"; */
-"Jfy-sf-Fhl.title" = "显示日志...";
+"Jfy-sf-Fhl.title" = "Show Logs...";
 
 /* Class = "NSMenuItem"; title = "About"; ObjectID = "LgB-6g-Gba"; */
-"LgB-6g-Gba.title" = "关于";
+"LgB-6g-Gba.title" = "About";
 
 /* Class = "NSMenuItem"; title = "Server Preferences..."; ObjectID = "M5r-E7-44f"; */
-"M5r-E7-44f.title" = "服务器设置...";
+"M5r-E7-44f.title" = "Server Preferences...";
 
 /* Class = "NSMenuItem"; title = "Global Mode"; ObjectID = "Mw3-Jm-eXA"; */
-"Mw3-Jm-eXA.title" = "全局模式";
+"Mw3-Jm-eXA.title" = "Global Mode";
 
 /* Class = "NSMenuItem"; title = "Scan QR Code From Screen"; ObjectID = "Qe6-bF-paT"; */
-"Qe6-bF-paT.title" = "扫描屏幕上的二维码";
+"Qe6-bF-paT.title" = "Scan QR Code From Screen";
 
 /* Class = "NSMenuItem"; title = "Update PAC from GFW List"; ObjectID = "TFc-Ec-duM"; */
-"TFc-Ec-duM.title" = "从 GFW List 更新 PAC";
+"TFc-Ec-duM.title" = "Update PAC from GFW List";
 
 /* Class = "NSMenuItem"; title = "Auto Mode By External PAC"; ObjectID = "U9N-QS-BwB"; */
-"U9N-QS-BwB.title" = "外部 PAC 自动模式";
+"U9N-QS-BwB.title" = "Auto Mode By External PAC";
 
 /* Class = "NSMenuItem"; title = "Help"; ObjectID = "Xg8-er-4Ov"; */
-"Xg8-er-4Ov.title" = "帮助";
+"Xg8-er-4Ov.title" = "Help";
 
 /* Class = "NSMenuItem"; title = "Export Diagnosis..."; ObjectID = "eNh-vY-utd"; */
-"eNh-vY-utd.title" = "导出诊断信息...";
+"eNh-vY-utd.title" = "Export Diagnosis...";
 
 /* Class = "NSMenuItem"; title = "WormHole: On"; ObjectID = "fzk-mE-CEV"; */
 "fzk-mE-CEV.title" = "WormHole: On";
 
 /* Class = "NSMenuItem"; title = "Import Server URLs..."; ObjectID = "geG-dQ-OYl"; */
-"geG-dQ-OYl.title" = "导入服务器 URL...";
+"geG-dQ-OYl.title" = "Import Server URLs...";
 
 /* Class = "NSMenuItem"; title = "Check for Updates..."; ObjectID = "hLv-bp-doM"; */
-"hLv-bp-doM.title" = "检查更新...";
+"hLv-bp-doM.title" = "Check for Updates...";
 
 /* Class = "NSMenuItem"; title = "HTTP Proxy Export Line To Pasteboard"; ObjectID = "lg6-To-GZA"; */
-"lg6-To-GZA.title" = "复制终端代理命令";
+"lg6-To-GZA.title" = "HTTP Proxy Export Line To Pasteboard";
 
 /* Class = "NSMenuItem"; title = "Auto Mode By PAC"; ObjectID = "r07-Gu-aEz"; */
-"r07-Gu-aEz.title" = "PAC 自动模式";
+"r07-Gu-aEz.title" = "Auto Mode By PAC";
 
 /* Class = "NSMenuItem"; title = "Share Server Profiles..."; ObjectID = "r5z-RB-LIZ"; */
-"r5z-RB-LIZ.title" = "分享服务器配置...";
+"r5z-RB-LIZ.title" = "Share Server Profiles...";
 
 /* Class = "NSMenuItem"; title = "Edit User Rules For PAC..."; ObjectID = "rms-p0-CvB"; */
-"rms-p0-CvB.title" = "编辑 PAC 用户自定规则...";
+"rms-p0-CvB.title" = "Edit User Rules For PAC...";
 
 /* Class = "NSMenuItem"; title = "Servers"; ObjectID = "u5M-hQ-VSc"; */
-"u5M-hQ-VSc.title" = "服务器";
+"u5M-hQ-VSc.title" = "Servers";
 
 /* Class = "NSMenuItem"; title = "Quit"; ObjectID = "vJS-JW-byz"; */
-"vJS-JW-byz.title" = "退出";
+"vJS-JW-byz.title" = "Quit";
